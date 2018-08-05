@@ -52,6 +52,7 @@ TWHTCD_PATH := $(TWRES_PATH)htcd/
 
 TARGET_RECOVERY_GUI := true
 
+<<<<<<< HEAD
 ifneq ($(TW_DEVICE_VERSION),)
     LOCAL_CFLAGS += -DTW_DEVICE_VERSION='"-$(TW_DEVICE_VERSION)"'
 else
@@ -59,6 +60,8 @@ else
 endif
 LOCAL_CFLAGS += -DPLATFORM_SDK_VERSION=$(PLATFORM_SDK_VERSION)
 
+=======
+>>>>>>> cc43cd61... Mark rec build by twrpbuilder
 LOCAL_SRC_FILES := \
     twrp.cpp \
     fixContexts.cpp \
