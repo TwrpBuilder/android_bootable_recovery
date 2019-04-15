@@ -17,13 +17,8 @@
 #ifndef _VARIABLES_HEADER_
 #define _VARIABLES_HEADER_
 
-<<<<<<< HEAD
-#define TW_MAIN_VERSION_STR       "3.3.0"
-#define TW_VERSION_STR TW_MAIN_VERSION_STR TW_DEVICE_VERSION
-=======
-#define TW_MAIN_VERSION_STR       "3.2.3-TwrpBuilder"
+#define TW_MAIN_VERSION_STR       "3.3.0-TwrpBuilder"
 #define TW_VERSION_STR TW_MAIN_VERSION_STR
->>>>>>> cc43cd61... Mark rec build by twrpbuilder
 
 #define TW_USE_COMPRESSION_VAR      "tw_use_compression"
 #define TW_FILENAME                 "tw_filename"
